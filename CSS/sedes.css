@@ -1,3 +1,8 @@
+/*No pude ver las imágenes, la página funcionando quedó desconfigurada.
+Algunas cosas que noté: 
+-La navbar y footer no eran la última versión (por eso se veía diferente)
+-Había algunos cambios en la hoja de estilo, con respecto al style.css*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
 
 *{
@@ -242,25 +247,6 @@ video {
 .texto-nosotros {
     text-align: justify;
     color: white;
-    margin: 1% ;
-    line-height: 2.5;
-}
-
-.texto-cta {
-    text-align: left;
-    color: white;
-    margin: 1% ;
-    line-height: 2.5;
-}
-.texto-filosofía{
-    text-align: justify;
-    color: white;
-    margin: 1% ;
-    line-height: 2.5;
-}
-.texto-mision{
-    text-align: center;
-    color: #222326;
     margin: 1% ;
     line-height: 2.5;
 }
