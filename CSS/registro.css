@@ -126,12 +126,21 @@ div.container2 {
     font-weight: 400;
     max-width: 700px;
     color: white;
+<<<<<<< HEAD
 }
 
 video {
     width: 100%;
 }
 
+=======
+}
+
+video {
+    width: 100%;
+}
+
+>>>>>>> 38058cc7b6a956e496ece4504c45d2522f8a56d6
 /*------Button-------*/
 
 .button1, .button2 {
@@ -172,6 +181,7 @@ video {
     text-align: center;
     margin:auto;
 	display:block;
+<<<<<<< HEAD
 }
 
 .boton3 {
@@ -186,6 +196,22 @@ video {
     border-width: 2px;
 }
 
+=======
+}
+
+.boton3 {
+    border-radius: 20px;
+    padding: 10px;
+    margin:auto;
+	display:block;
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+}
+
+>>>>>>> 38058cc7b6a956e496ece4504c45d2522f8a56d6
 /*----Form ------*/
 
 .formulario{
@@ -626,4 +652,8 @@ footer p {
         color: white !important;
     }
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 38058cc7b6a956e496ece4504c45d2522f8a56d6
