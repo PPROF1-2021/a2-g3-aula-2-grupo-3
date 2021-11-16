@@ -11,6 +11,9 @@
             <!-- Css -->
             <link rel="stylesheet" type="text/css" media="all" href="CSS/styles.css">
 
+            <!--Javascript-->
+            <script type="text/javascript" src="JS/funcionesGrupo3.js"></script>
+
             <!-- Title -->
 	          <title>Nosotros</title>
             
@@ -30,11 +33,12 @@
 
               <!-- Favicon -->
             <link href="assets/Img/Icons/fitnessclub-favicon.svg" rel="icon">
-
+            <!-- Acá faltaría agregar el apple touch icon -->
         </head>
 
         <body>
             
+            <!-- Start Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
               <a href="index.html"> <img src= "Img/logo_250px.png" width="100" class="logo"></a>
               <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,58 +50,57 @@
                     <a class="nav-link" href="index.html"> Home <span class="sr-only">Inicio</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"> Nosotros </a>
+                    <a class="nav-link" href="nosotros.html"> Nosotros </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"> Sedes </a>
+                    <a class="nav-link" href="sedes.html"> Sedes </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"> Actividades </a>
+                    <a class="nav-link" href="actividades.html"> Actividades </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"> Sumate YA</a>
+                    <a class="nav-link" href="registro.html"> Sumate YA</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"> Contacto </a>
+                    <a class="nav-link" href="contacto.html"> Contacto </a>
                   </li>
                 </ul>
-                <button class="btn btn-primary boton1" type="submit">Button</button>
+                <button class="btn btn-primary boton1" type="button" onclick="ingresa()">Ingresá</button>
               </div>
-            </nav>
+            </nav> <!-- End Navbar -->
           </div>
 
             <section class="grid-container banner">
-                <video autoplay muted loop><source src="Img/video_nosotros.mp4"></video>
+                <video autoplay muted loop><source src="Img/Videos/video_nosotros.mp4"></video>
                 <div class="overlay"></div>
                 <div class="cuerpo">
-                    <h1> ¡Conocenos!</h2>
+                    <h1> ¡Conocenos!</h1>
                     <p> Tenemos el mejor equipo </p>
                 </div> 
             </section>
 
-           
+            <!-- Start "Nuestra Historia" Section -->
               <div class="grid-container seccion1">
                 <div class="card">
                   <div class="card-body">
                     <h2 class="texto1"> NUESTRA HISTORIA </h2>
                     
-                    <p class="texto2">
-                      FitnessClub nace en el año 2006. Y rápidamente nos posicionamos como uno de los mejores gimnasios en Córdoba con más de 1000 m2 y y un equipo de profesionales centrados en vos, para que vivas una experiencia de entrenamiento única.<br>
-          
-                      <br>¡Te ofrecemos una amplia variedad de actividades para que entrenes como más te guste! <br> 
-          
-                      <br>Nuestras instalaciones proporcionan los espacios ideales para una completa actividad física y mental, que te ayude a encontrar el equilibrio y la armonía que deseas para tu vida, en mente y cuerpo.<br>
-          
-                      <br>Apostamos al mejoramiento de la vida de cada uno de las personas que forman parte de FitnessClub y creemos que el gimnasio es mas que un lugar para hacer ejercicio.<br>
-          
-                      <br>Estamos seguros de que nuestros profes satisfará las exigencias de nuestros asociados. Esto, unido a nuestro permanente deseo de mejorar, nos convierte en la mejor opción en espacios de acondicionamiento físico de la ciudad de Córdoba Inclub es mucho más que un gimnasio.<br>
-          
-                      <br>Somos parte de la revolución del fitness, sumate y viví la experiencia FitnessClub<br>
-                      </p>
+                    <p class="texto-nosotros">
+                      FitnessClub nace en el año 2006. Y rápidamente nos posicionamos como uno de los mejores gimnasios en Córdoba con más de 1000 m2 y y un equipo de profesionales centrados en vos, para que vivas una experiencia de entrenamiento única. </p>
+
+                      <p class="texto-nosotros">Nuestras instalaciones proporcionan los espacios ideales para una completa actividad física y mental, que te ayude a encontrar el equilibrio y la armonía que deseas para tu vida, en mente y cuerpo.</p>
+
+                      <p class="texto-nosotros">Apostamos al mejoramiento de la vida de cada uno de las personas que forman parte de FitnessClub y creemos que el gimnasio es mas que un lugar para hacer ejercicio.
+                    </p>
+
+                    <p class="texto-nosotros">Estamos seguros de que nuestros profes satisfará las exigencias de nuestros asociados. Esto, unido a nuestro permanente deseo de mejorar, nos convierte en la mejor opción en espacios de acondicionamiento físico de la ciudad de Córdoba Inclub es mucho más que un gimnasio.</p>
+
+                    <p class="texto-nosotros">Somos parte de la revolución del fitness, sumate y viví la experiencia FitnessClub</p>
                   </div>
                 </div>
-              </div>
+              </div> <!-- End "Nuestra Historia" Section -->
 
+            <!-- Start "Nuestro Equipo" Section -->
               <div class="container2">
                 <div class="row">
                   <div class="col">
@@ -108,7 +111,7 @@
   
                 <div class="grid-container seccion">
                   <div class="card cajas" style="width: 20rem;">
-                    <img src="Img/Prof/prof-funcional-500x500.jpg" class="card-img-top" alt="...">
+                    <img src="Img/Prof/prof-funcional-500x500.jpg" class="card-img-top" alt="prof-funcional">
                     <div class="card-body">
                       <h5 class="card-title">Juan Pérez</h5>
                       <p class="card-text">Profe de Funcional </p>
@@ -116,66 +119,105 @@
                     </div>
                   </div>
                   <div class="card cajas" style="width: 20rem;">
-                    <img src="Img/Prof/prof-boxing-500x500.jpg" class="card-img-top" alt="...">
+                    <img src="Img/Prof/prof-boxing-500x500.jpg" class="card-img-top" alt="prof-boxing">
                     <div class="card-body">
                       <h5 class="card-title">Ana González</h5>
                       <p class="card-text">Profe de Aerobox</p>
                     </div>
                   </div>
                   <div class="card cajas" style="width: 20rem;">
-                    <img src="Img/Prof/prof-spinning-500x500.jpg" class="card-img-top" alt="...">
+                    <img src="Img/Prof/prof-spinning-500x500.jpg" class="card-img-top" alt="prof-spinning">
                     <div class="card-body">
                       <h5 class="card-title">Pablo López</h5>
                       <p class="card-text">Profe de Spinning</p>
                     </div>
                   </div>
+                </div> <!-- End "Nuestro Equipo" Section -->
+
+              <!-- Start "Nuestra Filosofía" Section -->
+              <div class="grid-container seccion1">
+                <div class="card">
+                  <div class="card-body">
+                    <h2 class="texto1"> NUESTRA FILOSOFÍA </h2>
+                    
+                    <p class="texto1"> FitnessClub es para todos y esa es nuestra filosofía. </p>
+                    <ul>
+                      <li class="texto-filosofía">En este gimnasio no juzgamos.</li>
+                      <li class="texto-filosofía">Somos una sociedad diversa y tenemos una cultura de diversión.</li>
+                      <li class="texto-filosofía">Nada es mucho ni muy poco.</li>
+                      <li class="texto-filosofía">Buscamos animarte, entusiasmarte y entretenerte.</li>
+                      <li class="texto-filosofía">No hay un solo tipo. Ni una sola razón. Ni un solo camino.</li>
+                      <li class="texto-filosofía">No existen miradas que desaprueben.</li>
+                      <li class="texto-filosofía">Hay lugar para todos.</li>
+                      <li class="texto-filosofía">Cualquier persona que nos elija para alcanzar sus objetivos y respete al prójimo será bienvenida.</li>
+                      
+                    </ul>
+                  </div>
                 </div>
+              </div> <!-- End "Nuestra Filosofía" Section -->
+            
+              <!-- Start "Nuestra Misión" Section -->
+            <div class="container2">
+              <div class="row">
+                <div class="col">
+                  <h3> NUESTRA MISIÓN </h3>
+                </div>
+              </div>
+            </div>
 
+              <div class="grid-container seccion">
+                <div><p class="texto-mision"> Nuestra misión es entregar fitness de alta calidad, haciéndolo accesible para todos.</p>
+                  <p class="texto-mision">Es por eso que todas nuestras sedes cuentan con la tecnología e instalaciones adecuadas para satisfacer las necesidades de nuestros clientes.</p></div> 
+              </div> <!-- End "Nuestra Misión" Section -->
 
+              <!-- Start "Call to Action" Section -->
               <div class="grid-container seccion1">
                 <div class="card">
                   <div class="card-body">
                     <h2 class="texto1"> Entrená con Nosotros </h2>
-                    <p class="texto2"> El mejor equipamiento y amplios espacios, siguiendo los protocolos sanitarios.</p>
-                    <button class="btn btn-primary boton3" type="submit">Reservá tu turno</button>
+                    <p class="texto1"> El mejor equipamiento, amplios espacios y los mejores profesionales de Córdoba, para que vivas una experiencia única. <br>¡Tu mejor versión te espera!</p>
+                    <button class="btn btn-primary boton3" type="submit">Sumate Ya</button>
                   </div>
                 </div>
-              </div>
+              </div> <!-- End "Call to Action" Section -->
 
 
+            <!-- Start Footer -->
             <footer>
               <div class="grid-container footer">
                 <div class="grid-item">
                   <h4> FitnessSClub</h4>
-                    <p class="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sapiente, quasi velit eos explicabo natus dolor quo nisi soluta, voluptatum, repellendus ullam repudiandae quae rerum quas optio! Fugiat, quibusdam aliquid.</p>
+                  <p>
+                    ¡Tu mejor versión te espera!<br>
+                    <strong>Teléfono:</strong> +351 55 48855<br>
+                    <strong>Email:</strong> info@fitnessclub.com<br><br>
+                  </p>
                     <div class="grid-container redes-sociales">
-                      <p> Seguinos en: </p>
-                      <a class="redes-sociales" href="https://www.facebook.com" target="_blank"><img src="Img/facebook-logo-w.svg" class="card-img-top redes" alt="..."></a>
-                      <a class="redes-sociales" href="https://www.instagram.com/" target="_blank"><img src="Img/instagram-logo-w.svg" class="card-img-top redes" alt="..."></a>
-                      <a class="redes-sociales" href="https://www.youtube.com/" target="_blank"><img src="Img/youtube-logo-w.svg" class="card-img-top redes" alt="..."></a>
+                      <strong> ¡Seguinos! </strong><br><br>
+                      <a class="redes-sociales" href="https://www.facebook.com" target="_blank"><img src="Img/Icons/facebook-logo-w.svg" class="card-img-top redes" alt="..."></a>
+                      <a class="redes-sociales" href="https://www.instagram.com/" target="_blank"><img src="Img/Icons/instagram-logo-w.svg" class="card-img-top redes" alt="..."></a>
+                      <a class="redes-sociales" href="https://www.youtube.com/" target="_blank"><img src="Img/Icons/youtube-logo-w.svg" class="card-img-top redes" alt="..."></a>
+                      <!-- Acá podríamos usar íconos directamente la biblioteca de Bootstrap como en la demo que les armé-->
                     </div>
                 </div>
                 <div class="grid-item">
                   <h4> Sedes </h4>
-                    <p class="texto"> sede 1 </p>
-                    <p class="texto"> sede 2 </p>
-                    <p class="texto"> sede 3 </p>
+                    <p class="texto"> Sede Recta Martinolli</p>
+                    <p class="texto"> Sede Ricardo Rojas  </p>
+                    <p class="texto"> Sede Villa Allende </p>
+                    <!-- Creo que acá vendría mejor una lista -->
+                    <!-- Además de revisar los <div>, revisar la jerarquía, el footer y los textos secundarios no deberían ir en Poppins, que es la fuente de h1/h2 -->
                 </div>
                 <div class="grid-item">
-                  <h4> Recursos </h4>
+                  <h4> Recursos </h>
                     <p class="texto"> Blogs </p>
                     <p class="texto"> Videos </p>
                     <p class="texto"> FAQs </p>
-                </div>
-                <div class="grid-item">
-                  <h4> Contacto </h4>
-                    <p class="texto"> Dirección </p>
-                    <p class="texto"> Email </p>
-                    <p class="texto"> Teléfono </p>
+                    <!-- Acá podríamos agregar links externos/internos -->
                 </div>
             </div>  
                 <p class="pie"> &copy; 2021 - Hecho con &#128156 </p>
-            </footer>
+            </footer> <!-- End Footer -->
         </body>
     </html>               
 </html>

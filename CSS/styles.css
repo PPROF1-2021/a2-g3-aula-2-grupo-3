@@ -78,7 +78,7 @@ section video {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to left, #731943, #73245E, #361973, #1E1B8C, #F2F2F2);
+    background: linear-gradient(to left, #BF0F50, #731943, #73245E, #361973, #1E1B8C, #110f53);
     mix-blend-mode: overlay;
 }
 
@@ -136,7 +136,7 @@ video {
 }
 
 .button1 {
-    background-color: #73245E;
+    background-color: #BF0F50;
     border-color: white;
     color: white;
 }
@@ -159,7 +159,7 @@ video {
 }
 
 .boton2 {
-    background-color: #73245E;
+    background-color: #BF0F50;
     border-color: white;
     color: white;
     border-radius: 20px;
@@ -215,7 +215,7 @@ video {
 .seccion1 {
     height: 100vp; 
     padding: 10%;
-    background: linear-gradient(to left, #731943, #73245E, #361973, #1E1B8C, #F2F2F2);
+    background: linear-gradient(to left, #BF0F50, #731943, #73245E, #361973, #1E1B8C, #110f53);
 }
 
 .img-act {
@@ -239,9 +239,35 @@ video {
     line-height: 2.5;
 }
 
+.texto-nosotros {
+    text-align: justify;
+    color: white;
+    margin: 1% ;
+    line-height: 2.5;
+}
+
+.texto-cta {
+    text-align: left;
+    color: white;
+    margin: 1% ;
+    line-height: 2.5;
+}
+.texto-filosofía{
+    text-align: justify;
+    color: white;
+    margin: 1% ;
+    line-height: 2.5;
+}
+.texto-mision{
+    text-align: center;
+    color: #222326;
+    margin: 1% ;
+    line-height: 2.5;
+}
+
 /*------Footer-------*/
 footer {
-    background-color: black;
+    background-color: #222326;
     color: white;
     padding: 2%;
 }
@@ -259,11 +285,11 @@ footer p {
 }
 
 .redes {
-    width: 3em;
+    width: 2em;
 }
 
 .texto {
-    margin: 1%
+    margin: 0%
 }
 
 .pie {
@@ -335,7 +361,7 @@ footer p {
     }
 
     footer {
-        background-color: black;
+        background-color: #222326;
         color: white;
         padding: 2px;
     }
@@ -409,7 +435,7 @@ footer p {
     }
 
     footer {
-        background-color: black;
+        background-color: #222326;
         color: white;
         padding: 2px;
     }
@@ -481,7 +507,7 @@ footer p {
     }
 
     footer {
-        background-color: black;
+        background-color: #222326;
         color: white;
         padding: 2px;
     }

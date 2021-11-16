@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Actualizar imágenes y videos optimizados-->
 <html>
     <html lang="es-ES">
         <head>
@@ -15,21 +14,20 @@
             <!--Javascript-->
             <script type="text/javascript" src="JS/funcionesGrupo3.js"></script>
 
-            <title>FitnessClub |Tu mejor versión te espera</title>
+            <title>Fitness Club</title>
             <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
             <meta name="md:locale" content="es_es"/>
             <meta name="description" content="pagina de ejemplo">
             <meta name="keywords" content="ejemplo">
-            <!-- Acá hay que completar con la descripción y keywords específicas de cada página -->
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- For responsive pages -->
         </head>
 
         <body>
-            <!-- Start Navbar -->
+            
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
               <a href="index.html"> <img src= "Img/logo_250px.png" width="100" class="logo"></a>
-              <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -55,27 +53,22 @@
                 </ul>
                 <button class="btn btn-primary boton1" type="button" onclick="ingresa()">Ingresá</button>
               </div>
-            </nav> <!-- End Navbar -->
-          </div>
+            </nav>
           </div>
 
-          <!-- Start Hero -->
             <section class="grid-container banner">
-                <video autoplay muted loop><source src="Img/Videos/video_index.mp4"></video>
+                <video autoplay muted loop><source src="Img/video_index.mp4"></video>
                 <div class="overlay"></div>
                 <div class="cuerpo">
-                    <h1> Sumate a la experiencia FitnessClub</h1>
-                    <p> ¡Tu mejor versión te espera! </p>
-                    <!-- Revisar la jerarquía de textos en todas las páginas -->
+                    <h1> Bienvenidos</h2>
+                    <p> Sumate a la experiencia FitnessClub </p>
                     <div class="contenedor-button">
-                        <a href="registro.html"><button class="button1"> Registrate </button></a>
-                        <a href="login.html"><button class="button2"> Ingresá </button></a>
-                        <!-- El botón del login quizás debería tener un efecto hover -->
+                        <a href="registro.html"><button class="button1"> Registrarse </button></a>
+                        <a href="login.html"><button class="button2"> Ingresar </button></a>
                     </div>
                 </div> 
-            </section> <!-- End Hero -->
+            </section>
 
-          <!-- Start "Sedes" Section -->
             <div class="container2">
               <div class="row">
                 <div class="col">
@@ -86,47 +79,56 @@
 
               <div class="grid-container seccion">
                 <div class="card cajas" style="width: 20rem;">
-                  <img src="Img/SedeRM/sede1-500x500.jpg" class="card-img-top" alt="...">
-                  <!-- Cambié cada imagen por las de portada y armé carpetas para cada sede -->
-                  <!-- Completar alt="..." en todas cajas -->
+                  <img src="Img/sede1-g1.jpg" class="card-img-top" alt="imagen de edifico del gimnasio">
                   <div class="card-body">
                     <h5 class="card-title">Sede Recta Martinolli</h5>
-                    <p class="card-text">Recta Martinolli 777 <br> Ciudad de Córdoba <br>0351 618-4598 </p>
-                    <a href="#" class="btn btn-primary boton2">+ Info</a>
-                    <!-- Completar los link en cada botón: deben redirigir a la página de cada sede -->
+                    <p class="card-text">Lunes a Viernes de 7 hs. 23 hs.
+                      Sábados de 9 hs. a 20 hs.
+                      Llamanos al 0810-220-6634
+                      sede1@fitnessclub.com.ar</p>
+                    <a href="sede1.html" class="btn btn-primary boton2">Conocé más</a>
                   </div>
                 </div>
                 <div class="card cajas" style="width: 20rem;">
-                  <img src="Img/SedeRR/sede2-500x500.jpg" class="card-img-top" alt="...">
+                  <img src="Img/sede1-g2.jpg" class="card-img-top" alt="imagen de edifico del gimnasio">
                   <div class="card-body">
                     <h5 class="card-title">Sede Ricardo Rojas</h5>
-                    <p class="card-text">Ricardo Rojas 888 <br>Ciudad de Córdoba <br>0351 617-0015</p>
-                    <a href="#" class="btn btn-primary boton2">+ Info</a>
+                    <p class="card-text">Lunes a Viernes de 7 hs. 23 hs.
+                      Sábados de 9 hs. a 20 hs.
+                      Llamanos al 0810-220-6635
+                      sede2@fitnessclub.com.ar</p>
+                    <a href="sede2.html" class="btn btn-primary boton2">Conocé más</a>
                   </div>
                 </div>
                 <div class="card cajas" style="width: 20rem;">
-                  <img src="Img/SedeVA/sede3-500x500.jpg" class="card-img-top" alt="...">
+                  <img src="Img/sede1-g3.jpg" class="card-img-top" alt="imagen de edifico del gimnasio">
                   <div class="card-body">
-                    <h5 class="card-title">Sede Villa Allende</h5>
-                    <p class="card-text">Rio de Janeiro 999 <br>Villa Allende,Córdoba<br>351 615-8154</p>
-                    <a href="#" class="btn btn-primary boton2">+ Info</a>
+                    <h5 class="card-title">Sede Rio de Janeiro</h5>
+                    <p class="card-text">Lunes a Viernes de 9 hs. 21 hs.
+                      Sábados de 10 hs. a 20 hs.
+                      Llamanos al 0810-220-6636
+                      sede3@fitnessclub.com.ar</p>
+                    <a href="sede3.html" class="btn btn-primary boton2">Conocé más</a>
                   </div>
                 </div>
-              </div> <!-- End "Sedes" Section -->
-            
-              <!-- Start "Call to Action" Section -->
-              <!-- ¿Qué CTA pondríamos acá? Definir textos, link y botón -->
+              </div>
+           
               <div class="grid-container seccion1">
                 <div class="card">
                   <div class="card-body">
-                    <h2 class="texto1"> Título de la sección </h2>
-                    <p class="texto2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet expedita mollitia accusantium, est numquam ex quisquam ipsam nisi error illo facilis dolores beatae temporibus consequuntur nam voluptatibus veniam maxime? In?</p>
-                    <button class="btn btn-primary boton3" type="submit">Button</button>
+                    <h2 class="texto1"> Nuestra Filosofía </h2>
+                    <p class="texto2"> En este gimnasio no juzgamos.
+                      Somos una sociedad diversa y tenemos una cultura de diversión.
+                      Nada es mucho ni muy poco.
+                      Buscamos animarte, entusiasmarte y entretenerte.
+                      No hay un solo tipo. Ni una sola razón. Ni un solo camino.
+                      No existen miradas que desaprueben.
+                      Hay lugar para todos.</p>
+                    <a href="registro.html"><button class="btn btn-primary boton3" type="submit">Sumate Ya</button></a>
                   </div>
                 </div>
-              </div> <!-- End "Call to Action" Section -->
+              </div>
 
-            <!-- Start "Actividades" Section -->
               <div class="container2">
                 <div class="row">
                   <div class="col">
@@ -137,35 +139,33 @@
     
               <div class="grid-container seccion">
                 <div class="card cajas" style="width: 18rem;">
-                  <img src="Img/Icons/boxing-icon.svg" class="card-img-top img-act" alt="...">
+                  <img src="Img/boxing-icon.svg" class="card-img-top img-act" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Aerobox</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary boton2">Go somewhere</a>
-                    <!-- Este botón ¿a dónde redirige? a link externo, a los horarios de clase, a la página de actividades... ¡definir! -->
+                    <p class="card-text">El aerobox es una opción diferente para ejercitarse de manera divertida y no sólo quemar calorías.</p>
+                    <a href="registro.html" class="btn btn-primary boton2">Reserva tu turno</a>
                   </div>
                 </div>
                 <div class="card cajas" style="width: 18rem;">
-                  <img src="Img/Icons/musculacion-icon.svg" class="card-img-top img-act" alt="...">
+                  <img src="Img/musculacion-icon.svg" class="card-img-top img-act" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Musculación</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary boton2">Go somewhere</a>
+                    <h5 class="card-title">Spinning</h5>
+                    <p class="card-text">El spinning es un deporte que fomenta el esfuerzo individual por superarse a sí mismo.</p>
+                    <a href="registro.html" class="btn btn-primary boton2">Reserva tu turno</a>
                   </div>
                 </div>
                 <div class="card cajas" style="width: 18rem;">
-                  <img src="Img/Icons/natacion-icon.svg" class="card-img-top img-act" alt="...">
+                  <img src="Img/natacion-icon.svg" class="card-img-top img-act" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Natación</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary boton2">Go somewhere</a>
+                    <h5 class="card-title">Funcional</h5>
+                    <p class="card-text">En estos ejercicios se reclutan tanto los músculos movilizadores como los estabilizadores.</p>
+                    <a href="registro.html" class="btn btn-primary boton2">Reserva tu turno</a>
                   </div>
                 </div>
-              </div> <!-- End "Actividades" Section -->
+              </div>
 
-            <!-- Start "Call to Action" Section -->
-            <!-- Idem anterior -->
-              <div class="grid-container seccion1">
+
+             <div class="grid-container seccion1">
                 <div class="card">
                   <div class="card-body">
                     <h2 class="texto1"> Título de la sección </h2>
@@ -173,44 +173,42 @@
                     <button class="btn btn-primary boton3" type="submit">Button</button>
                   </div>
                 </div>
-              </div> <!-- End "Call to Action" Section -->
+              </div>
 
-            <!-- Start Footer -->
+
             <footer>
-              <div class="grid-container footer">
+              <div class="grid-container">
                 <div class="grid-item">
                   <h4> FitnessSClub</h4>
-                  <p>
-                    ¡Tu mejor versión te espera!<br>
-                    <strong>Teléfono:</strong> +351 55 48855<br>
-                    <strong>Email:</strong> info@fitnessclub.com<br><br>
-                  </p>
+                    <p class="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sapiente, quasi velit eos explicabo natus dolor quo nisi soluta, voluptatum, repellendus ullam repudiandae quae rerum quas optio! Fugiat, quibusdam aliquid.</p>
                     <div class="grid-container redes-sociales">
-                      <strong> ¡Seguinos! </strong><br><br>
-                      <a class="redes-sociales" href="https://www.facebook.com" target="_blank"><img src="Img/Icons/facebook-logo-w.svg" class="card-img-top redes" alt="..."></a>
-                      <a class="redes-sociales" href="https://www.instagram.com/" target="_blank"><img src="Img/Icons/instagram-logo-w.svg" class="card-img-top redes" alt="..."></a>
-                      <a class="redes-sociales" href="https://www.youtube.com/" target="_blank"><img src="Img/Icons/youtube-logo-w.svg" class="card-img-top redes" alt="..."></a>
-                      <!-- Acá podríamos usar íconos directamente la biblioteca de Bootstrap -->
+                      <p> Seguinos en: </p>
+                      <img src="Img/facebook-logo-w.svg" class="card-img-top redes" alt="...">
+                      <img src="Img/instagram-logo-w.svg" class="card-img-top redes" alt="...">
+                      <img src="Img/youtube-logo-w.svg" class="card-img-top redes" alt="...">
                     </div>
                 </div>
                 <div class="grid-item">
                   <h4> Sedes </h4>
-                    <p class="texto"> Sede Recta Martinolli </p>
-                    <p class="texto"> Sede Ricardo Rojas  </p>
-                    <p class="texto"> Sede Villa Allende </p>
-                    <!-- Creo que acá vendría mejor una lista -->
-                    <!-- Además de revisar los <div>, revisar la jerarquía, el footer y los textos secundarios no deberían ir en Poppins, que es la fuente de h1/h2 -->
+                    <p class="texto"> sede 1 </p>
+                    <p class="texto"> sede 2 </p>
+                    <p class="texto"> sede 3 </p>
                 </div>
                 <div class="grid-item">
-                  <h4> Recursos </h>
+                  <h4> Recursos </h4>
                     <p class="texto"> Blogs </p>
                     <p class="texto"> Videos </p>
                     <p class="texto"> FAQs </p>
-                    <!-- Acá podríamos agregar links externos/internos -->
+                </div>
+                <div class="grid-item">
+                  <h4> Contacto </h4>
+                    <p class="texto"> Dirección </p>
+                    <p class="texto"> Email </p>
+                    <p class="texto"> Teléfono </p>
                 </div>
             </div>  
                 <p class="pie"> &copy; 2021 - Hecho con &#128156 </p>
-            </footer> <!-- End Footer -->
+            </footer>
         </body>
     </html>               
 </html>
